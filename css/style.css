@@ -318,7 +318,7 @@ div#preloader {
 }
 .sec-head {
   display: inline-block;
-  font-size: 25px;
+  font-size: 20px;
   font-weight: 400;
   margin-bottom: 0;
   padding: 0px 0 35px;
@@ -328,6 +328,12 @@ div#preloader {
 .single-well .sec-head{
   padding: 10px;
 }
+@media (max-width: 992px) {
+  .sec-head{
+    margin-top: 20px;
+  }
+}
+
 /*--------------------------------*/
 
 /*  2. Header top Area
